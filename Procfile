@@ -1,2 +1,1 @@
-python manage.py runserver
-migrate
+web: gunicorn gettingstarted.wsgi --log-file -
