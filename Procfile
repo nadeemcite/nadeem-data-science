@@ -1,1 +1,1 @@
-web: gunicorn nadeem-data-science.wsgi --log-file -
+web: gunicorn gettingstarted.wsgi --log-file -
