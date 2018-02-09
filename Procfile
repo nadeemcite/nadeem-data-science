@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi logs.txt
+web: gunicorn dataapp.wsgi logs.txt
